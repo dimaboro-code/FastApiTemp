@@ -35,7 +35,7 @@ Install the dependencies via `pip`:
 pip install fastapi sqlalchemy asyncpg uvicorn
 ```
 # Project Structure
-'''
+```
 .
 ├── app
 │   ├── __init__.py
@@ -48,7 +48,7 @@ pip install fastapi sqlalchemy asyncpg uvicorn
 │       ├── users.py     # Router for handling user-related endpoints
 │       └── items.py     # Router for handling item-related endpoints
 └── README.md
-'''
+```
 # Key Files:
 - main.py: The main application file that initializes FastAPI and includes the router definitions, with background task handling.
 - models.py: Defines the database models (e.g., User, Item) using SQLAlchemy ORM.
